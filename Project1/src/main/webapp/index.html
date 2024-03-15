@@ -1,97 +1,122 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="ISO-8859-1">
-<title>Employee Register</title>
+    <meta charset="ISO-8859-1">
+    <title>Employee Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
     <style>
-        body{
+        body {
             background-color: #176B87;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5rem;
         }
+
         /* h1{
             text-align: center;
             margin-top: 2rem;
         } */
-        
-        
-        .fl {
 
+
+        .fl {
+            display: flex;
             text-align: center;
+            gap: 2rem;
         }
-        
+
         .lab1 {
             display: flex;
             justify-content: center;
             flex-direction: column;
-            margin-left: 300px;
+            /* margin-left: 300px;
             margin-right: 300px;
-            margin-top: 5rem;
+            margin-top: 5rem; */
             height: auto;
             width: auto;
-            
-            
-            
+
+
+
         }
-        
-        .rf{
-			
-			
-            
-		}
-        
-        
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 5%;
+        }
+
+        #one {
+            margin-top: 3rem;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body{
+                margin-top: 10rem;
+            }
+        }
     </style>
 
 
 </head>
+
 <body>
 
 
 
- <div class="lab1">
+    <div class="lab1">
         <div>
             <h1> Registration Form</h1>
         </div>
+
         <div class="rf">
-            <form  action="callprogram">
+            <form action="callprogram">
                 <fieldset class="fl">
-					<legend style="text-align: left;">Employee</legend>
-                    <div class="lab">
-                        <div>
-                            <input type="Text" name="id" placeholder="ID" size="15" maxlength="10">
-                        </div>
+                    <legend style="text-align: left;">Employee</legend>
+                    <div id="one">
+                        <img src="ascom73190100017.jpg" alt="">
                     </div>
-                    <br>
+                    <div id="2">
 
-                    <div class="lab">
-                        <div>
-                            <input type="Text" name="name" placeholder="Name" size="15">
+                        <div class="lab">
+                            <div>
+                                <input type="Text" name="id" placeholder="ID" size="15" maxlength="10">
+                            </div>
                         </div>
-                    </div>
-                    <br>
-                    <div class="lab">
-                        <div>
-                            <input type="Text" name="Email" placeholder="Email" size="15">
+                        <br>
+
+                        <div class="lab">
+                            <div>
+                                <input type="Text" name="name" placeholder="Name" size="15">
+                            </div>
                         </div>
-                    </div>
-                    <br>
-                    <div class="lab">
-                        <div>
-                            <input type="Text" name="dept" placeholder="Department" size="15">
+                        <br>
+                        <div class="lab">
+                            <div>
+                                <input type="Text" name="Email" placeholder="Email" size="15">
+                            </div>
                         </div>
-                    </div>
-                    <br>
-
-                    <div class="lab">
-                        <div>
-                            <input type="Text" name="Sal" placeholder="Salary" size="15">
+                        <br>
+                        <div class="lab">
+                            <div>
+                                <input type="Text" name="dept" placeholder="Department" size="15">
+                            </div>
                         </div>
+                        <br>
+
+                        <div class="lab">
+                            <div>
+                                <input type="Text" name="Sal" placeholder="Salary" size="15">
+                            </div>
 
 
+                        </div>
+                        <br>
+
+                        <input type="Submit" name="">
                     </div>
-                    <br>
-
-                    <input type="Submit" name="">
 
                 </fieldset>
             </form>
@@ -102,4 +127,5 @@
 
 
 </body>
+
 </html>
